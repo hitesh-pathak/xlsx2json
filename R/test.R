@@ -9,9 +9,9 @@ library(base64enc)
 #'  
 xlsx_to_json <- function(base64_xlsx) {
   
-  xlsx = base64decode(base64_xlsx)
+  excel = base64decode(base64_xlsx)
   
-  wb <- loadWorkbook(xlsx)
+  wb <- loadWorkbook(excel)
   
   sheet_names <- names(wb)
   
