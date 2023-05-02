@@ -24,4 +24,6 @@ xlsx_to_json <- function(base64_xlsx) {
   }
   
   json_output <- toJSON(output)
+  
+  return(json_output)
 }
