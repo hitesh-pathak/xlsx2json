@@ -1,0 +1,14 @@
+Package: xlsx_to_json
+Title: Convert XLSX to JSON for Individual Sheets
+Version: 0.1
+Authors@R: 
+  person("Hitesh", "Pathak", , "hitesh@home.llc", role = c("cre"))
+Description: This package provides a function to convert an xlsx file to JSON format, with individual JSON files for each worksheet
+License: MIT
+Imports:
+  openxlsx,
+  jsonlite,
+  base64enc
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
