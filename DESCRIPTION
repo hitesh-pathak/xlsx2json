@@ -1,4 +1,4 @@
-Package: xlsx_to_json
+Package: xlsx2json
 Title: Convert XLSX to JSON for Individual Sheets
 Version: 0.1
 Authors@R: 
