@@ -7,6 +7,7 @@ library(base64enc)
 #' Accepts base64 string of excel workbook and outputs a JSON with base64 of individual worksheets.
 #' @param base64_xlsx base64 of excel workbook.
 #' @return JSON of individual worksheets.
+#' @export
 xlsx_to_json <- function(base64_xlsx) {
   
   excel = base64decode(base64_xlsx)
